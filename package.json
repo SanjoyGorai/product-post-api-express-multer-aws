@@ -1,0 +1,23 @@
+{
+  "name": "product-api",
+  "version": "1.0.0",
+  "description": "This is a REST API for products",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Sanjoy Gorai",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1682.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.2.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.0",
+    "nanoid": "^5.0.7",
+    "nodemon": "^3.1.4",
+    "sequelize": "^6.37.3"
+  }
+}
